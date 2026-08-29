@@ -1,0 +1,58 @@
+/**
+ *
+ * @mainpage EPL232 - Assignment 1
+ * @author SOtiris Petsas UC1367983 
+ * @date 11-10-2025
+ *
+ * @file README.dox
+ *  
+ * Introduction
+ * 
+ * The goal of this project is to work with strings from files and search for a smaller DNA pattern 
+ * inside a larger DNA sequence using two different algorithms.
+ *
+ * Program Description
+ *
+ * The program is called patternMatching.c.  
+ * It reads two text files from the command line:
+ * - one file with a DNA sequence
+ * - one file with the pattern to search for
+ *
+ * The program then finds how many times the pattern appears in the DNA sequence.
+ *
+ * Algorithms
+ *
+ * The user can choose one of two algorithms to make the search of the pattern in the DNA string .
+ * The two algorithms are:
+ * -Brute Force (-bf): checks every position in the DNA string one by one.
+ * -Karp–Rabin (-kr):  uses hashing to make the search faster.
+ *
+ *  How to Run
+ *
+ * The program runs from the terminal like this:
+ *
+ * ./patternMatching -bf dnaSequence.txt patSequence.txt 
+ * ./patternMatching -kr swinefluDNA.txt normal-dna.txt
+ *
+ *
+ * Example output:
+ * 
+ * The pattern was found: 53 times
+ * 
+ *
+ * Input Format
+ *
+ * Each file has one line with the DNA sequence or pattern (only a, c, g, t).  
+ * The maximum allowed size is 512000 characters.
+ *
+ * Error Messages
+ *
+ * The program should print messages that warn that :
+ * - DNA sequence too large
+ * - Pattern sequence too large
+ * - Error while opening file
+ * - Wrong algorithm is given
+ * - Wrong amount of arguments given from the command line
+ * - Illegal character in input file
+ * - Pattern is larger than the sequence
+ */

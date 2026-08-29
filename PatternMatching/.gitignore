@@ -1,0 +1,5 @@
+patternMatching
+a.out
+*.o
+html/
+latex/
