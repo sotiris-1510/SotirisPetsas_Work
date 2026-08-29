@@ -1,0 +1,101 @@
+Memory allocated. Generating random instance...
+Instance ready. Beginning Experiment 1.
+
+>>> Analyzing Algo 2 (Max Cov) <<<
+  [Step] k = 1        | Time:        55.73 ms
+  [Step] k = 2        | Time:       104.58 ms
+  [Step] k = 4        | Time:       404.93 ms
+  [Step] k = 8        | Time:       787.69 ms
+  [Step] k = 16       | Time:      1373.25 ms
+  [Step] k = 32       | Time:      2747.63 ms
+  [Step] k = 64       | Time:      5603.88 ms
+  [Step] k = 128      | Time:     11415.36 ms
+  [Step] k = 256      | Time:     23169.82 ms
+  [Step] k = 512      | Time:     48103.51 ms
+  [Step] k = 1024     | Time:    103664.46 ms
+  [Step] k = 2048     | Time:    235864.48 ms
+  [Step] k = 4096     | Time:    568430.10 ms
+  [Step] k = 8192     | Time:   1428596.37 ms
+  Target reached. Searching between 4096 and 8192...
+  [Binary] k = 6144     | Time:    992498.17 ms
+  [Binary] k = 7168     | Time:   1215757.45 ms
+  [Binary] k = 6656     | Time:   1106150.39 ms
+  [Binary] k = 6912     | Time:   1161479.01 ms
+  [Binary] k = 7040     | Time:   1188423.65 ms
+  [Binary] k = 7104     | Time:   1197256.19 ms
+>>> Algo 2 (Max Cov) FINAL RESULT: 20 mins limit at k = 7104 <<<
+
+>>> Analyzing Algo 3 (Min Size) <<<
+  [Step] k = 1        | Time:        79.32 ms
+  [Step] k = 2        | Time:       159.34 ms
+  [Step] k = 4        | Time:       310.97 ms
+  [Step] k = 8        | Time:       663.14 ms
+  [Step] k = 16       | Time:      1326.74 ms
+  [Step] k = 32       | Time:      2754.40 ms
+  [Step] k = 64       | Time:      5280.26 ms
+  [Step] k = 128      | Time:     10738.07 ms
+  [Step] k = 256      | Time:     21416.88 ms
+  [Step] k = 512      | Time:     43005.83 ms
+  [Step] k = 1024     | Time:     86233.12 ms
+  [Step] k = 2048     | Time:    172401.67 ms
+  [Step] k = 4096     | Time:    345864.38 ms
+  [Step] k = 8192     | Time:    699864.82 ms
+  [Step] k = 16384    | Time:   1445982.83 ms
+  Target reached. Searching between 8192 and 16384...
+  [Binary] k = 12288    | Time:   1067471.23 ms
+  [Binary] k = 14336    | Time:   1254943.39 ms
+  [Binary] k = 13312    | Time:   1160441.97 ms
+  [Binary] k = 13824    | Time:   1205342.01 ms
+  [Binary] k = 13568    | Time:   1179289.06 ms
+  [Binary] k = 13696    | Time:   1199410.34 ms
+>>> Algo 3 (Min Size) FINAL RESULT: 20 mins limit at k = 13696 <<<
+
+>>> Analyzing Algo 4 (Density) <<<
+  [Step] k = 1        | Time:        77.90 ms
+  [Step] k = 2        | Time:       161.50 ms
+  [Step] k = 4        | Time:       324.40 ms
+  [Step] k = 8        | Time:       664.69 ms
+  [Step] k = 16       | Time:      1321.19 ms
+  [Step] k = 32       | Time:      2700.93 ms
+  [Step] k = 64       | Time:      5481.31 ms
+  [Step] k = 128      | Time:     11060.52 ms
+  [Step] k = 256      | Time:     22509.83 ms
+  [Step] k = 512      | Time:     45999.86 ms
+  [Step] k = 1024     | Time:     95395.97 ms
+  [Step] k = 2048     | Time:    199539.84 ms
+  [Step] k = 4096     | Time:    423271.88 ms
+  [Step] k = 8192     | Time:    904089.09 ms
+  [Step] k = 16384    | Time:   1969817.23 ms
+  Target reached. Searching between 8192 and 16384...
+  [Binary] k = 12288    | Time:   1420832.65 ms
+  [Binary] k = 10239    | Time:   1156300.56 ms
+  [Binary] k = 11263    | Time:   1284647.09 ms
+  [Binary] k = 10751    | Time:   1219780.72 ms
+  [Binary] k = 10495    | Time:   1192971.33 ms
+  [Binary] k = 10623    | Time:   1206398.12 ms
+  [Binary] k = 10559    | Time:   1197963.32 ms
+>>> Algo 4 (Density) FINAL RESULT: 20 mins limit at k = 10559 <<<
+
+>>> Analyzing Algo 1 (Random) <<<
+  [Step] k = 1        | Time:         0.12 ms
+  [Step] k = 2        | Time:         0.09 ms
+  [Step] k = 4        | Time:         0.08 ms
+  [Step] k = 8        | Time:         0.08 ms
+  [Step] k = 16       | Time:         0.09 ms
+  [Step] k = 32       | Time:         0.10 ms
+  [Step] k = 64       | Time:         0.14 ms
+  [Step] k = 128      | Time:         0.18 ms
+  [Step] k = 256      | Time:         0.28 ms
+  [Step] k = 512      | Time:         0.42 ms
+  [Step] k = 1024     | Time:         0.74 ms
+  [Step] k = 2048     | Time:         1.38 ms
+  [Step] k = 4096     | Time:         2.68 ms
+  [Step] k = 8192     | Time:         5.66 ms
+  [Step] k = 16384    | Time:        13.17 ms
+  [Step] k = 32768    | Time:        26.77 ms
+  [Step] k = 65536    | Time:        55.08 ms
+  [Step] k = 131072   | Time:       167.58 ms
+  [Step] k = 262144   | Time:       201.66 ms
+  [Step] k = 500000   | Time:       179.48 ms
+>>> Algo 1 (Random) FINAL RESULT: 20 mins limit at k = 500000 <<<
+

@@ -1,0 +1,54 @@
+--- STARTING EXPERIMENT 2: 10 RUNS PER ALGORITHM ---
+  Filling 150000 sets with random data...
+    ...generated 50000 sets...
+    ...generated 100000 sets...
+  Instance generation complete!
+Instance for Experiment 2 generated. Starting runs...
+
+>> Testing Algo 1 (Random) (10 runs):
+   Run  1:       5.06 ms (0.00 minutes)
+   Run  2:       4.21 ms (0.00 minutes)
+   Run  3:       3.48 ms (0.00 minutes)
+   Run  4:       4.04 ms (0.00 minutes)
+   Run  5:       3.64 ms (0.00 minutes)
+   Run  6:       3.46 ms (0.00 minutes)
+   Run  7:       3.46 ms (0.00 minutes)
+   Run  8:       3.71 ms (0.00 minutes)
+   Run  9:       3.97 ms (0.00 minutes)
+   Run 10:       3.52 ms (0.00 minutes)
+
+>> Testing Algo 2 (Max Cov) (10 runs):
+   Run  1:  190500.43 ms (3.18 minutes)
+   Run  2:  192019.01 ms (3.20 minutes)
+   Run  3:  198839.18 ms (3.31 minutes)
+   Run  4:  194107.98 ms (3.24 minutes)
+   Run  5:  188442.96 ms (3.14 minutes)
+   Run  6:  187722.73 ms (3.13 minutes)
+   Run  7:  187880.55 ms (3.13 minutes)
+   Run  8:  187425.55 ms (3.12 minutes)
+   Run  9:  186469.43 ms (3.11 minutes)
+   Run 10:  187309.86 ms (3.12 minutes)
+
+>> Testing Algo 3 (Min Size) (10 runs):
+   Run  1:   82902.84 ms (1.38 minutes)
+   Run  2:   82093.92 ms (1.37 minutes)
+   Run  3:   83025.47 ms (1.38 minutes)
+   Run  4:   83625.99 ms (1.39 minutes)
+   Run  5:   83707.90 ms (1.40 minutes)
+   Run  6:   82954.44 ms (1.38 minutes)
+   Run  7:   82149.02 ms (1.37 minutes)
+   Run  8:   83751.90 ms (1.40 minutes)
+   Run  9:   84025.14 ms (1.40 minutes)
+   Run 10:   83719.77 ms (1.40 minutes)
+
+>> Testing Algo 4 (Density) (10 runs):
+   Run  1:  128608.48 ms (2.14 minutes)
+   Run  2:  129374.86 ms (2.16 minutes)
+   Run  3:  127910.40 ms (2.13 minutes)
+   Run  4:  128078.34 ms (2.13 minutes)
+   Run  5:  129744.04 ms (2.16 minutes)
+   Run  6:  127525.14 ms (2.13 minutes)
+   Run  7:  128800.71 ms (2.15 minutes)
+   Run  8:  129630.37 ms (2.16 minutes)
+   Run  9:  127672.31 ms (2.13 minutes)
+   Run 10:  129124.44 ms (2.15 minutes)

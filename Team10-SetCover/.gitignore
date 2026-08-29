@@ -1,0 +1,9 @@
+# Compiled object files και executables
+*.o
+*.out
+*.exe
+a.out
+# macOS metadata
+.DS_Store
+# VS Code workspace settings
+.vscode/settings.json
